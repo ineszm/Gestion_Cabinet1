@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Add_rendezvous"
+    android:weightSum="100"
+    android:orientation="vertical">
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:text="Medscape"
+        android:textSize="40dp"
+        android:textColor="@color/orange"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="15"
+        android:src="@drawable/medecin" />
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="10"/>
+
+    <EditText
+        android:id="@+id/date_rendez"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:hint="Date Rendez_Vous"
+        android:paddingLeft="12dp"
+        android:inputType="textPersonName"/>
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="20"/>
+    <Button
+        android:id="@+id/valider"
+        android:layout_width="273dp"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:text="Valider"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:background="@color/orange"
+        android:fontFamily="sans-serif" />
+
+</LinearLayout>

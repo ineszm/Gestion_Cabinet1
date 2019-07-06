@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FAB14A</color>
+    <color name="colorPrimaryDark">#FAB14A</color>
+    <color name="colorAccent">#FAB14A</color>
+    <color name="orange">#FAB14A</color>
+    <color name="bleu">#01345A</color>
+    <color name="white">#ffff</color>
+    <color name="vert">#008577</color>
+</resources>
